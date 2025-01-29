@@ -1,4 +1,4 @@
-const API_BASE_URL = process.env.REACT_APP_API_URL;
+const API_BASE_URL = "http://localhost:5062";
 
 async function getTasks() {
     const response = await fetch(`${API_BASE_URL}/items`);
